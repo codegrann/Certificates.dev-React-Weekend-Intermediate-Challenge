@@ -2,7 +2,7 @@
 difficulty: 1
 chapter: "Chapter 2: Core Concepts & Tooling"
 training: true
-tags: react
+tags: react 
 ---
 
 # Bootstrap a React App
