@@ -31,14 +31,15 @@ console.log(movies)
                 }`}>
                   {movie.inTheaters ? 'In Theaters' : 'Coming Soon'}
                 </div>
+                <p className="text-yellow-500 mb-2 absolute top-3 left-3 hidden group-hover:block">{'⭐'.repeat(movie.rating)}</p>
+
               </div>
 
               <div className="p-3 flex flex-col flex-grow">
-                <div className="flex justify-between items-start mb-2">
+                <div className="flex justify-between items-start mb-2 ">
                   <h2 className="text-md font-semibold text-gray-900 leading-tight line-clamp-1">
                     {movie.name}
                   </h2>
-              
                 </div>
                 
                 <p className="text-sm text-gray-500 font-medium mb-3">
